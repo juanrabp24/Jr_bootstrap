@@ -1,0 +1,107 @@
+@font-face
+{
+    font-family: "wow";
+    src:url("fonts/wow/diablo.otf")
+    
+}
+.contenedor
+{
+    font-family: "wow";   
+}
+.container{
+padding: 30px;
+
+}
+
+.pattern-overlay{
+height: 400px;
+}
+video-section .pattern-overlay {
+background-color: rgba(71, 71, 71, 0.59);
+padding: 150px 0 32px;
+min-height: 496px;
+    opacity: 1;
+
+}
+
+
+.video-section h1, .video-section h3{
+text-align:center;
+color:#fff;
+}
+
+
+.video-section h1{
+    font-family: 'wow';
+    color: greenyellow;
+font-size:110px;
+font-weight:bold;
+text-transform: uppercase;
+margin: 40px auto 0px;
+text-shadow: 1px 1px 1px #000;
+-webkit-text-shadow: 1px 1px 1px #000;
+-moz-text-shadow: 1px 1px 1px #000;
+}
+
+
+.video-section h3{
+    padding: 50px;
+    font-family: 'wow';
+font-size: 25px;
+font-weight:lighter;
+margin: 0px auto 15px;
+}
+.video-section .buttonBar{display:none;}
+.player {font-size: 1px;}
+
+
+
+
+body{
+    background: url(repeat-bg.jpg)
+}
+
+#bs-navbar-collapse{
+    margin: 0 auto;
+    width: 100%
+}
+#barra{ background-color: transparent;
+border: none;}
+
+#bs-navbar-collapse ul li{
+    font-size: 150%;
+    font-family: "wow";
+    
+}
+
+  .carousel-caption {
+      text-align: left;
+    }
+    /* definir el tamaño del carousel, exacto, importante la proporcion de las imagenes */
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      height: 100%;
+      margin: auto;
+        width: 100%;
+    }
+
+    #myCarousel {
+      height: 100%;
+    }
+
+/* primer elemento con el efecto parallax, con un fondo */
+        #intro {
+            background: url(https://wallpaperscraft.com/image/world_of_warcraft_worgen_character_arm_mountain_16285_3840x2160.jpg) 40% 0 fixed;
+            height: 5%;
+            margin: 0 auto;
+            width:100%;
+            position: relative;
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+            padding: 100px 0;
+        }
+
+.jumbotron{
+    width: 100%;
+}
+

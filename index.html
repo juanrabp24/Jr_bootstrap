@@ -1,10 +1,318 @@
-<html>
-	
-	<title>SALU2</title><head></head>
-	<body>
-		<H2>AJAJAJAJ SALU2</H2>
-	<p>Salu2</p>
-	
-	</body>
 
+<html>
+
+<title>JR</title>
+<meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="js/jquery.matchHeight.js"></script>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+<link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+    
+     <script>
+        /*
+        *   CÓDIGO NECESARIO QUE HACE EL EFECTO
+        *   PARALLAX
+        */
+        $(document).ready(function () {
+            // cache the window object
+            $window = $(window);
+
+            $('section[data-type="background"]').each(function () {
+                // declare the variable to affect the defined data-type
+                var $scroll = $(this);
+                $scroll.css("min-height", $(window).height());
+
+                $(window).scroll(function () {
+                    // HTML5 proves useful for helping with creating JS functions!
+                    // also, negative value because we're scrolling upwards
+                    // also, negative value because we're scrolling upwards
+                    var yPos = -($window.scrollTop() / $scroll.data('speed'));
+
+                    // background position
+                    var coords = '50% ' + yPos + 'px';
+
+                    // move the background
+                    $scroll.css({
+                        backgroundPosition: coords
+                    });
+                }); // end window scroll
+            }); // end section function
+        }); // close out script
+
+        /* Create HTML5 element for IE */
+        document.createElement("section");
+    </script>
+
+
+<body>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <div class="pattern-overlay" style="position: relative;">
+ 
+
+
+
+ 
+ 
+<section class="content-section video-section">
+  <div class="pattern-overlay">
+  <a id="bgndVideo" class="player" data-property="{videoURL:'T3qnHe-W9l4',containment:'.video-section', quality:'large', autoPlay:true, mute:true,opacity:1}">bg</a>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+        <h1>Bienvenidos</h1>  
+        <h3>Soy un jugador del famoso juego World Of Warcraft</h3>
+	   </div>
+      </div>
+    </div>
+  </div>
+</section>
+    </div>
+    
+    
+    
+<nav class="navbar navbar-default" id="barra">
+    <div class="container">
+      <!-- Marca y titulo se agrupan para que se 'vea' mejor en dispositivos moviles -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse">
+          <!--el sr-only para lectores de páginas -->
+          <span class="sr-only">Toggle navigation</span>
+          <!-- las rallitas del menu -->
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand " href="#">
+          <i class="fa fa-linux fa-lg"></i>
+
+        </a>
+
+      </div>
+
+      <!-- Aqui ponemos todos los links, forms y elementos expandibles -->
+      <div class="collapse navbar-collapse" id="bs-navbar-collapse">
+
+
+
+        <ul class="nav navbar-nav">
+            <li><a href="http://eu.battle.net/wow/es/legion/">Proxima Expansion</a>
+          </li>
+          <li><a href="http://eu.battle.net/wow/es/">Pagina Oficial</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Facciones <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li style="background-color:red"><a class="page-scroll"  href="#faccion">Horda</a>
+              </li>
+              <li class="divider"></li>
+              <li style="background-color:blue" ><a class="page-scroll" href="#faccion">Alianza </a>
+              </li>
+            </ul>
+          </li>
+              <li><a href="#final">Quien soy?</a>
+          </li>
+             <li><a href="#historia">Historia</a>
+          </li>
+
+        </ul>
+
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+    
+      <div class="row">
+            <h3 id="faccion" class="page-header text-center" style="color:greenyellow" >Facciones
+            </h3>
+        </div>
+         
+         <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item">
+        <img src="http://dotageeks.com/wp-content/uploads/2015/10/World-Of-Warcraft-Wallpaper-Alliance-08.jpg" alt="turtle">
+        <div class="carousel-caption">
+          <h2 style="color:blue" class="text-center">Alianza</h2>
+          <h3 class="text-center" style="color:blue">Sus razas son:Pandaren, Huargen, Draenei, Enano, Gnomo, Humano, Elfo de la noche</h3>
+        </div>
+      </div>
+      <div class="item active ">
+        <img src="http://orig11.deviantart.net/c5c1/f/2014/247/5/a/wow_horde_logo_wallpaper_by_gwinnblade-d7xw1am.jpg" alt="tortue">
+        <div class="carousel-caption">
+         <h2 style="color:red" class="text-center">Horda</h2>
+          <h3 class="text-center" style="color:red">Sus razas son:Pandaren, Goblin, Elfo de sangre, Orco, Tauren, Trol, No-Muerto</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+    
+    <div class="container">
+         <div class="row">
+            <h3 class="page-header text-center" style="color:greenyellow" >Razas
+            </h3>
+        </div>
+
+
+        <div class="row">
+          <div class="col-xs-6 col-xs-offset-3 col-md-3 col-md-offset-1  text-center">
+               <div style="position:relative">
+                <img title='class="img-circle"'class="img-circle" src="https://pbs.twimg.com/profile_images/1822884078/how-to-draw-a-pandaren_-world-of-warcraft_-pandaren-tutorial-drawing_400x400.jpg" >
+                   <span style="position: absolute; left: 45%; top: 10%; font-size:20px; color:white">Pandaren</span>
+                </div>
+            </div>
+            <div class="col-xs-6 col-xs-offset-3 col-md-3 text-center">
+               <div style="position:relative">
+                <img title='class="img-circle"'class="img-circle" src="http://static.wixstatic.com/media/e91097_20e14d2430a947518458755a9ecc75d2.jpg/v1/fill/w_400,h_400,al_c,q_80/e91097_20e14d2430a947518458755a9ecc75d2.jpg" >
+                   <span style="position: absolute; left: 45%; top: 10%; font-size:20px; color:greenyellow">Huargen</span>
+                </div>
+            </div>
+            <div class="col-xs-6 col-xs-offset-3 col-md-3  col-md-offset-1 text-center">
+               <div style="position:relative">
+                <img title='class="img-circle"'class="img-circle" src="https://sites.google.com/site/centhylssitewow/_/rsrc/1338698751974/-como-jugar/guia-del-juego/goblin/goblins-wow-cataclysm_1024x1024_517.jpg?height=400&width=400" >
+                   <span style="position: absolute; left: 45%; top: 10%; font-size:20px;">Goblin</span>
+                </div>
+            </div>
+           <div class="col-xs-6 col-xs-offset-3 col-md-3  text-center">
+               <div style="position:relative">
+                <img title='class="img-circle"'class="img-circle" src="https://pbs.twimg.com/profile_images/668669846016528384/lyFFDS2x.jpg" >
+                   <span style="position: absolute; left: 45%; top: 10%; font-size:20px; color:yellow;">Humano</span>
+                </div>
+            </div>
+                 <div class="col-xs-6 col-xs-offset-3 col-md-3  col-md-offset-1  text-center">
+               <div style="position:relative">
+                <img title='class="img-circle"'class="img-circle" src="https://cdn1.artstation.com/p/assets/images/images/002/452/777/smaller_square/gelar-esapria-kharisma-tauren.jpg" >
+                   <span style="position: absolute; left: 45%; top: 10%; font-size:20px; color:red;">Tauren</span>
+                </div>
+            </div>
+          <div class="col-xs-6 col-xs-offset-3 col-md-3  text-center">
+               <div style="position:relative">
+                <img title='class="img-circle"'class="img-circle" src="http://static.wixstatic.com/media/e91097_1b8e46604f72417faf3b913fdafd49d7.jpg/v1/fill/w_400,h_400,al_c,q_80/e91097_1b8e46604f72417faf3b913fdafd49d7.jpg" >
+                   <span style="position: absolute; left: 45%; top: 5%; font-size:20px; color:violet">Draenei</span>
+                </div>
+            </div>
+            </div>
+        </div>
+     <div class="container">
+         <div class="row">
+            <h3 id="historia" class="page-header text-center" style="color:greenyellow" >Historia
+            </h3>
+        </div>
+  <section data-speed="10" data-type="background" id="intro">
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">Warcraft: Orcs & Humans</div>
+                <div class="panel-body">
+                  Durante toda una eternidad, el titán caído, Sargeras, había estado planeando acabar con toda la vida sobre la faz de Azeroth. Con este fin, Sargeras poseyó al hechicero humano Medivh y le obligó a encontrarse con Gul'dan, un brujo orco en el mundo de Draenor. Allí, los demoníacos sirvientes de Sargeras en la Legión Ardiente comenzaron a corromper a los otrora pacíficos orcos, y los convirtieron en un ejército sediento de sangre conocido como la Horda. Esta fuerza maldita invadió Azeroth a través de El Portal Oscuro, una puerta dimensional creada por Medivh y Gul'dan, y comenzó a luchar contra la nación humana de Ventormenta. Ayudados por el medio orco Garona, campeones humanos como Anduin Lothar lucharon valientemente para proteger su reino. Sin embargo, la poderosa Horda terminó por sobrepasar las defensas de Ventormenta. Mientras la urbe caía trágicamente, Garona traicionó a sus aliados y asesinó al Rey Llane Wrynn, sellando la derrota de la nación.
+                </div>
+            </div>
+        </div>
+    <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">Warcraft II: Tides of Darkness</div>
+                <div class="panel-body">
+                 La nacion humana de Ventormenta había caído frente a la Horda. El campeón caballero Anduin Lothar había reunido los dispersos restos del ejército humano, y dirigió a los refugiados hacia el norte, a través del Gran Mar, hasta el reino de Lordaeron. Tras conseguir el apoyo de otras naciones (humanos, gnomos, elfos y enanos), Lothar ayudó a formar una gran Alianza para resistir frente a los orcos y su implacable nuevo líder, Orgrim Martillo Maldito. La Horda, en apariencia imparable, amplió su reguero de destrucción al reforzar su creciente ejército con salvajes trols y brutales ogros. Sin embargo, ya con la victoria al alcance de la mano, Gul'dan y sus seguidores abandonaron a sus aliados para ir en busca de poderosos artefactos, lo cual provocó que la debilitada Horda se viese obligada a retirarse. Martillo Maldito logró reunir a los orcos de manera momentánea tras conseguir acabar con Lothar en una cruenta batalla, pero la determinación de la Alianza no se vio comprometida por la muerte del héroe. Turalyon, leal lugarteniente de Lothar, tomó rápidamente el liderazgo de los defensores de Azeroth y finalmente consiguió derrotar a la Horda
+                </div>
+            </div>
+        </div>
+     <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">Warcraft II: Beyond the Dark Portal</div>
+                <div class="panel-body">
+                 Tras la destruccion de El Portal Oscuro por parte de la triunfante Alianza, el chamán orco Ner'zhul tomó el mando de los restantes efectivos de la Horda en Draenor. Allí comenzó a crear portales de acceso a otros mundos aún por explotar, con el objetivo de ir invadiéndolos uno tras otro. Para poder realizar los rituales que condujesen a su conquista dimensional, Ner’zhul envió tropas orcas a través del intacto Portal Oscuro a su mundo, en busca de poderosas reliquias en Azeroth. Desconfiando de los planes de la Horda, los héroes de la Alianza invadieron Draenor para terminar con la amenaza orca para siempre. Enfrentándose a una derrota segura a manos de sus enemigos, Ner'zhul consiguió abrir numerosos portales a nuevos mundos. La tensión mágica resultante hizo añicos a Draenor, atrapando a muchos de los mayores héroes de Azeroth en Terrallende, los destrozados restos del planeta.
+                </div>
+            </div>
+        </div>
+      <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">Warcraft III: Reign of Chaos</div>
+                <div class="panel-body">
+                 Tras años consumiéndose en cautividad, los orcos que aún quedaban en Azeroth fueron liberados por un antiguo esclavo llamado Thrall. Este joven chamán y su reformada Horda huyeron al continente de Kalimdor para escapar de la invasión de la Legión Ardiente, un ejército demoníaco que buscaba arrasar todo Azeroth. Para debilitar las defensas del mundo, la Legión liberó una nueva y horripilante arma: la Plaga de los no-muertos. El príncipe Arthas Menethil de Lordaeron luchó con valentía para proteger sus tierras contra el temible enemigo, pero su temor y desesperación le llevaron a unir sus fuerzas con el misterioso líder de la Plaga, el Rey Exánime. En Kalimdor, la Horda de Thrall dejó a un lado las viejas rencillas y se unió con otras razas para desbaratar un ataque a gran escala de la Plaga dirigido por el señor demoníaco Archimonde. Pagando un alto precio, la inverosímil unión de humanos, elfos de la noche y orcos derrotó a sus enemigos en la cima del sagrado Monte Hyjal.
+                </div>
+            </div>
+        </div>
+       <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">Warcraft III: The Frozen Throne</div>
+                <div class="panel-body">
+                 Mientras los ejércitos de humanos, orcos y sus aliados se recuperaban de la batalla contra la Legión Ardiente, Arthas Menethil, ahora Caballero de la Muerte, masacraba a los habitantes de los Reinos del Este de Azeroth en nombre de la Plaga. Pero nuevas fuerzas emergían que amenazaban con destruir a Arthas y a sus esbirros: la alma en pena Sylvanas Brisaveloz se rebeló, creando una facción escindida de los no-muertos conocida como los Renegados, y el elfo de la noche con sangre de demonio, Illidan Tempestira, envió a sus ejércitos al continente helado de Rasganorte para combatir contra el Rey Exánime. Arthas se apresuró a defender a su maestro y derrotó a Illidan, quien huyó avergonzado hacia Terrallende. Por último, ya cerca del centro del poder del Azote, Arthas hizo lo impensable y voluntariamente unió su propio espíritu al del Rey Exánime.
+                </div>
+            </div>
+        </div>
+      <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">World of Warcraft</div>
+                <div class="panel-body">
+                 Con la intención de asentarse en la árida región de Durotar, la nueva Horda de Thrall expandió sus filas al invitar a los no-muertos de los Renegados a unirse a los orcos, tauren y trols. Mientras, enanos, gnomos y los antiguos elfos de la noche se comprometieron con una reforzada Alianza guiada por el reino humano de Ventormenta. Después de que el rey de Ventormenta, Varian Wrynn, desapareciera misteriosamente, el alto señor Bolvar Fordragón sirvió como regente; sin embargo, su trabajo se vio entorpecido por las manipulaciones y el control mental del dragón negro Onyxia, quien gobernaba disfrazado como una humana perteneciente a la nobleza. Mientras los héroes investigaban las manipulaciones de Onyxia, antiguos enemigos aterrizaron en territorios situados por doquier para amenazar por igual a la Horda y la Alianza.
+                </div>
+            </div>
+        </div>
+       <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">Assault on Blackwing Lair</div>
+                <div class="panel-body">
+                 En lo más profundo del abrasador núcleo de la Montaña Roca Negra, el dragón negro Nefarian llevó a cabo perversos experimentos con la sangre de otros Vuelos. Con el objetivo de apoderarse para sí de la región al completo, Alanegra reunió a los remanentes de la Horda oscura, un malvado ejército que adoptó la demoníaca sed de sangre de la antigua Horda. Estos orcos, trols y miembros de otras razas, todos ellos corruptos, lucharon contra Ragnaros, el Señor del Fuego, y contra los sombríos enanos Hierro Negro por el control de la ardiente montaña. Antes de acabar siendo derrotado por varios héroes intrépidos, Nefarian creó a los perversos dragones cromáticos y una legión de distintas abominaciones con la intención de formar un ejército lo suficientemente poderoso como para controlar Azeroth y así proseguir el legado de su infame progenitor, Alamuerte el Destructor.
+                </div>
+            </div>
+        </div>
+      <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">Assault on Blackwing Lair</div>
+                <div class="panel-body">
+                 En lo más profundo del abrasador núcleo de la Montaña Roca Negra, el dragón negro Nefarian llevó a cabo perversos experimentos con la sangre de otros Vuelos. Con el objetivo de apoderarse para sí de la región al completo, Alanegra reunió a los remanentes de la Horda oscura, un malvado ejército que adoptó la demoníaca sed de sangre de la antigua Horda. Estos orcos, trols y miembros de otras razas, todos ellos corruptos, lucharon contra Ragnaros, el Señor del Fuego, y contra los sombríos enanos Hierro Negro por el control de la ardiente montaña. Antes de acabar siendo derrotado por varios héroes intrépidos, Nefarian creó a los perversos dragones cromáticos y una legión de distintas abominaciones con la intención de formar un ejército lo suficientemente poderoso como para controlar Azeroth y así proseguir el legado de su infame progenitor, Alamuerte el Destructor.
+                </div>
+            </div>
+        </div>
+       <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">Rise of the Blood God</div>
+                <div class="panel-body">
+                 Años atrás, en el templo en ruinas de Atal'Hakkar, varios sacerdotes leales al Dios de la Sangre, Hakkar el Cazador de Almas, intentaron traer al mundo al iracundo avatar de la deidad. Sin embargo, sus seguidores, los sacerdotes de Atal'ai, descubrieron que el Cazador de Almas solo podía ser invocado en la antigua capital de la tribu Gurubashi, Zul'Gurub. Vuelto de nuevo a la vida en esta fortaleza selvática, Hakkar tomó el control de la tribu Gurubashi y de los mortales campeones de los poderosos dioses animales de los trols. La oscura influencia del Cazador de Almas encontró un mínimo de resistencia cuando la sabia tribu Zandalari reclutó a diversos héroes de la Horda y la Alianza y organizó la invasión de Zul'Gurub.
+                </div>
+            </div>
+        </div>
+       
+    </section>
+    
+    </div>
+    <div id="final" class="jumbotron col-xs-6">
+    <div class="container">
+      <h1 class="page-header">Quien soy?</h1>
+      <p>Mi nombre es Juan Ramon Ballester Peña estudiante de Desarrollo de aplicaciones Web en el instituto Solvam de Quart de Poblet, aparte, soy un gran fan y jugador del juego World Of Warcraft y esta pagina es una introduccion a dicho juego. Esta pagina web contiene Copyright de Blizzard Entertainment y tiene todos los derechos reservados.</p>
+    </div>
+  </div>
+    
+
+ 
+<script>
+$(document).ready(function () {
+$(".player").mb_YTPlayer();
+});
+</script>
+    
+   
+  
+</body>
 </html>
